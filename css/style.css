@@ -12,3 +12,23 @@ input[type=checkbox]:checked + label {
   font-style: normal;
   text-decoration: line-through
 } 
+
+header img{
+  float:left
+}
+
+h1{
+  font-size: xx-large;
+}
+
+header{
+  display: flex;
+  justify-content:flex-start;
+}
+
+header div ul{
+  justify-content: space-between;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+}
