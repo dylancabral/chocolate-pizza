@@ -2,3 +2,6 @@
   box-sizing: border-box;
   background-image: url("image/list-bg.png");
 }
+.checked {
+  text-decoration: line-through;
+}
