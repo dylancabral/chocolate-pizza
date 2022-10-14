@@ -2,6 +2,13 @@
   box-sizing: border-box;
   background-image: url("image/list-bg.png");
 }
-.checked {
-  text-decoration: line-through;
-}
+
+input[type=checkbox] + label {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+} 
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+  text-decoration: line-through
+} 

@@ -1,4 +1,10 @@
-var elems = document.getElementsByClassName('box');
-    Array.from(elems).forEach(v => v.addEventListener('change', function(){
-      this.parentNode.classList.toggle('checked');
-    }));
+function toggleLineThrough(element) {
+  if (element.checked) {
+    document.getElementById("text").style.textDecoration = "line-through";
+  }
+  else {
+    document.getElementById("text").style.textDecoration = "none";
+  }
+  
+}
+
