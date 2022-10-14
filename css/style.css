@@ -1,14 +1,22 @@
-#ingredient{
+.ingredient-list{
   box-sizing: border-box;
-  background-image: url("image/list-bg.png");
+  background-image: url('../images/list-bg.png');
+  height: 305px;
+  max-width: 905px;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  position: relative;
+  display: block;
 }
 
+
+/* below two element codes are for the check box line through function */
 input[type=checkbox] + label {
   color: rgb(0, 0, 0);
   font-style: italic;
 } 
 input[type=checkbox]:checked + label {
-  color: #f00;
+  color: rgb(0, 0, 0);
   font-style: normal;
   text-decoration: line-through
 } 
