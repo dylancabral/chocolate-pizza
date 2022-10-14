@@ -8,6 +8,8 @@ ul.ingredient-list{
   padding: 3rem;
   position: relative;
   display: block;
+    column-count: 2;
+    column-gap: 20px;
 }
 
 
@@ -31,6 +33,7 @@ body.container{
 }
 li.ingredient{
   padding: 0.3rem;
+
 
 }
 img.chocopizza{
