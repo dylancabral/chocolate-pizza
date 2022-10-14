@@ -1,4 +1,4 @@
-.ingredient-list{
+ul.ingredient-list{
   box-sizing: border-box;
   background-image: url('../images/list-bg.png');
   height: 305px;
@@ -24,7 +24,21 @@ body.container{
     display: inline-block;
     position: relative;
     width: 60%;
-    margin: 2rem 20%
+    margin: 2rem 3rem
+}
+li.ingredient{
+  padding: 0.3rem;
+
+}
+img.chocopizza{
+  margin: 1rem;
+  align-content: center;
+}
+p{
+  padding:1rem;
+  margin: 0 3rem;
+
+
 }
 
 header img{
