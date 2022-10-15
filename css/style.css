@@ -8,8 +8,8 @@ body {
   }
   .container{
 /*     display: flex;
- */    width: 80%;
-    margin: 3rem 20%;
+ */ 
+    margin: 2rem 20%;
     box-sizing:  border-box;}
 
 main{
@@ -30,7 +30,8 @@ input[type=checkbox]:checked + label {
 
 
 li.ingredient{
-  padding: 0.3rem;
+  padding: 0.4rem;
+  font-size: 1.2rem;
 
 
 }
@@ -88,4 +89,10 @@ ul.ingredient-list{
   font-size: 2rem;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+#borderimg{
+  background-image: url(../images/hr-img.png);
+  background-repeat: repeat-x;
+  height: 15px;
 }
