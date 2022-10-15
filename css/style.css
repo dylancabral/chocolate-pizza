@@ -9,11 +9,11 @@ body {
   .container{
 /*     display: flex;
  */    width: 80%;
-    margin: 2rem 20%;
+    margin: 3rem 20%;
     box-sizing:  border-box;}
 
 main{
-  padding-top:5rem;
+  padding-top:2rem;
   border-top: 20px;
   border-image: url(../images/menu-line.png);
 }
@@ -35,14 +35,15 @@ li.ingredient{
 
 }
 img.chocopizza{
-  margin: 1rem;
   align-content: center;
+  width: 100%;
+  padding-top: 3rem;
 }
 p{
   box-sizing: border-box;
   padding:1rem;
   text-indent: 3rem;
-  width: 80%;
+
   padding: 1rem 3rem;
 }
 
@@ -61,6 +62,7 @@ justify-content: space-between;
 /* flex:auto;
  */
 }
+
 
 div.icons ul{
   justify-content: space-between;
@@ -81,11 +83,9 @@ ul.ingredient-list{
   column-gap: 20px;
 }
 
-#borderimg1 { 
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image-source: url(/css/images/border.png);
-  border-image-repeat: round;
-  border-image-slice: 30;
-  border-image-width: 10px;
+
+.mainh2{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: sans-serif;
 }
