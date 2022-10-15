@@ -1,18 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  }
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+/*     display: flex;
+ */    width: 80%;
+    margin: 2rem 20%;
+    box-sizing:  border-box;}
 
-ul.ingredient-list{
-  box-sizing: border-box;
-  background-image: url('../images/list-bg.png');
-  height: 305px;
-  max-width: 905px;
-  background-repeat: no-repeat;
-  padding: 3rem;
-  position: relative;
-  display: block;
-    column-count: 2;
-    column-gap: 20px;
+main{
+  padding-top:5rem;
+  border-top: 20px;
+  border-image: url(../images/menu-line.png);
 }
-
-
 /* below two element codes are for the check box line through function */
 input[type=checkbox] + label {
   color: rgb(0, 0, 0);
@@ -23,14 +27,8 @@ input[type=checkbox]:checked + label {
   font-style: normal;
   text-decoration: line-through
 } 
-body.container{
-    display: flex;
-    position: relative;
-    width: 60%;
-    margin: 2rem 3rem;
-    box-sizing:  border-box;
-    
-}
+
+
 li.ingredient{
   padding: 0.3rem;
 
@@ -41,27 +39,53 @@ img.chocopizza{
   align-content: center;
 }
 p{
+  box-sizing: border-box;
   padding:1rem;
-  margin: 0 3rem;
+  text-indent: 3rem;
+  width: 80%;
+  padding: 1rem 3rem;
 }
 
-/* header img{
+header img{
   float:left
-} */
+}
 
 h1{
   font-size: xx-large;
 }
+ header{
+/* box-sizing:  border-box;
+position: absolute; */
+display: flex;
+justify-content: space-between;
+/* flex:auto;
+ */
+}
 
-/* header{
-  display: flex;
-  justify-content:flex-start;
-  box-sizing: border-box;
-} */
-
-header div ul{
+div.icons ul{
   justify-content: space-between;
   display: flex;
   flex-direction:row;
   justify-content: flex-end;
+}
+ul.ingredient-list{
+  box-sizing: border-box;
+  background-image: url('../images/list-bg.png');
+  height: 305px;
+  max-width: 905px;
+  background-repeat: no-repeat;
+  padding: 3rem;
+  position: relative;
+  display: block;
+  column-count: 2;
+  column-gap: 20px;
+}
+
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(/css/images/border.png);
+  border-image-repeat: round;
+  border-image-slice: 30;
+  border-image-width: 10px;
 }
