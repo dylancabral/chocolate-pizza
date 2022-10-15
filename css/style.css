@@ -65,7 +65,7 @@ justify-content: space-between;
 
 
 div.icons ul{
-  justify-content: space-between;
+  justify-content: normal;
   display: flex;
   flex-direction:row;
   justify-content: flex-end;
